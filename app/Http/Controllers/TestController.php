@@ -21,22 +21,11 @@ class TestController extends Controller
 
         $domain = $shop->getDomain()->toNative();
 
-        // $shopApi = $shop->api()->rest('GET', '/admin/api/2024-01/products.json?ids=632910392,921728736');
-        $shop = $request->user();
-        $productResource = [
-            "title" => "Good Product",
-            "body_html" => "<strong>Good snowboard!</strong>"
-        ];
 
-        $request = $shop->api()->rest(
-            'POST',
-            '/admin/api/products.json',
-            [
-                'product' => $productResource
-            ]
-        );
-        dd($request);
-        return $this->responseFactory->json($request['body']['product']);
+        $shop = Auth::user();
+        $products = $shop->api()->rest('GET', '/admin/api/2021-07/products.json');
+        return $products;
+
 
 
         return Inertia::render('Index');
