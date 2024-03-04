@@ -20,8 +20,8 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
-        "@shopify/app-bridge-react": "^3.7.9",
-        "@shopify/polaris": "^11.21.0"
-
+        "@shopify/app-bridge-react": "^4.0.0",
+        "@shopify/polaris": "^12.19.2",
+        "@shopify/polaris-icons": "^8.6.0"
     }
 }

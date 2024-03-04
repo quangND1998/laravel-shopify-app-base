@@ -1,10 +1,12 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TestController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
-
+use App\Http\Middleware\CheckAccessScopes;
+use App\Http\Middleware\Billabe;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,7 +38,20 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::get('/', function () {
-    return Inertia::render('Welcome');
-})->middleware(['verify.shopify'])->name('home');
-require __DIR__.'/auth.php';
+// Route::get('/', function () {
+//     return Inertia::render('Welcome');
+// })->middleware(['verify.shopify'])->name('home');
+
+
+Route::middleware(['verify.shopify', CheckAccessScopes::class, Billabe::class])->group(function () {
+
+
+    Route::get('/', function () {
+        return Inertia::render('Welcome');
+    })->name('home');
+    // Route::post('/products', [ProductController::class, 'store']);
+    Route::get('index', [TestController::class, 'index'])->name('test');
+   
+});
+
+require __DIR__ . '/auth.php';
