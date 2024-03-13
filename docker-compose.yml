@@ -34,6 +34,7 @@ services:
     
 
  
+
   phpmyadmin:
     image: phpmyadmin
     restart: always
@@ -41,7 +42,8 @@ services:
       - ${ADMINER_PORT}:80
     environment:
       - PMA_ARBITRARY=1
-
+    networks:
+      - db-network
 
   nginx:
     image: nginx:alpine
