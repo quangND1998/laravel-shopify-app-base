@@ -18,12 +18,10 @@ class TestController extends Controller
     {
 
         $shop = Auth::user();
-
+        // dd(\Osiset\ShopifyApp\Util::getShopifyConfig('api_scopes'));
         $domain = $shop->getDomain()->toNative();
 
-
-        $shop = Auth::user();
-        $products = $shop->api()->rest('GET', '/admin/api/2021-07/products.json');
+        $products = $shop->api()->rest('GET', '/admin/api/2024-01/orders.json');
         return $products;
 
 
