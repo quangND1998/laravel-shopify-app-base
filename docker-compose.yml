@@ -53,11 +53,11 @@ services:
     networks:
       - app-network
 
-  npm:  
+  node:  
     build:
       context: .docker/node
       dockerfile: Dockerfile
-
+    restart: always
   redis:
     image: redis:6-alpine
     command: redis-server --requirepass ${REDIS_PASSWORD}
