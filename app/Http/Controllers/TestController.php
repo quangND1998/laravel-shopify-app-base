@@ -20,14 +20,27 @@ class TestController extends Controller
         $shop = Auth::user();
 
         $domain = $shop->getDomain()->toNative();
-
-
+     
+        // $shopApi = $shop->api()->rest('GET', '/admin/shop.json');
+        // return $shopApi;
         $shop = Auth::user();
-        $products = $shop->api()->rest('GET', '/admin/api/2021-07/products.json');
+        $products = $shop->api()->rest('GET', '/admin/api/2024-01/products.json');
         return $products;
+        // $shop = $request->user();
+        // $productResource = [
+        //     "title" => "Good Product",
+        //     "body_html" => "<strong>Good snowboard!</strong>"
+        // ];
 
+        // $request = $shop->api()->rest(
+        //     'POST',
+        //     '/admin/api/products.json',
+        //     [
+        //         'product' => $productResource
+        //     ]
+        // );
 
-
+        return $this->responseFactory->json($request['body']['product']);
         return Inertia::render('Index');
     }
 }
