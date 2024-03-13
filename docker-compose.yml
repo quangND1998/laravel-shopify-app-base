@@ -49,14 +49,16 @@ services:
       - 8001:80
     volumes:
       - ./:/var/www/laravel-shopify-app
-      - .docker/nginx/nginx.conf:/etc/nginx/conf.d/shopify-default.conf
+      - .docker/nginx/nginx.conf:/etc/nginx/conf.d/
     networks:
       - app-network
 
   npm:  
     image: node:18-alpine
     working_dir: /var/www/laravel-shopify-app
-  
+    volumes: 
+      - ./:/var/www/laravel-shopify-app
+
   redis:
     image: redis:6-alpine
     command: redis-server --requirepass ${REDIS_PASSWORD}
