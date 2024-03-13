@@ -23,3 +23,6 @@ yarn-error.log
 !.docker/*/data/db/.gitkeep
 .docker/*/data/redis/*
 !.docker/*/data/redis/.gitkeep
+
+
+.docker/data/db/*

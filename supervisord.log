@@ -1,0 +1,66 @@
+2024-03-13 15:34:02,008 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 15:34:02,008 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 15:34:02,013 INFO supervisord started with pid 7
+2024-03-13 15:38:30,756 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 15:38:30,757 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 15:38:30,763 INFO supervisord started with pid 7
+2024-03-13 15:54:20,362 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 15:54:20,362 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 15:54:20,365 INFO supervisord started with pid 7
+2024-03-13 15:59:02,598 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 15:59:02,598 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 15:59:02,601 INFO supervisord started with pid 7
+2024-03-13 16:00:14,746 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:00:14,746 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:00:14,753 INFO supervisord started with pid 7
+2024-03-13 16:04:33,738 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:04:33,739 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:04:33,743 INFO supervisord started with pid 1
+2024-03-13 16:11:53,245 WARN received SIGQUIT indicating exit request
+2024-03-13 16:12:08,267 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:12:08,268 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:12:08,272 INFO supervisord started with pid 1
+2024-03-13 16:12:58,329 WARN received SIGQUIT indicating exit request
+2024-03-13 16:13:09,565 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:13:09,566 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:13:09,569 INFO supervisord started with pid 1
+2024-03-13 16:19:01,229 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:19:01,230 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:19:01,233 INFO supervisord started with pid 1
+2024-03-13 16:19:40,268 WARN received SIGQUIT indicating exit request
+2024-03-13 16:22:42,816 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:22:42,817 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:22:42,820 INFO supervisord started with pid 1
+2024-03-13 16:24:07,918 WARN received SIGQUIT indicating exit request
+2024-03-13 16:24:17,387 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:24:17,388 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:24:17,393 INFO supervisord started with pid 1
+2024-03-13 16:27:07,592 WARN received SIGQUIT indicating exit request
+2024-03-13 16:27:10,750 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:27:10,750 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:27:10,754 INFO supervisord started with pid 1
+2024-03-13 16:34:31,250 WARN received SIGQUIT indicating exit request
+2024-03-13 16:34:33,922 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:34:33,922 INFO Set uid to user 0 succeeded
+2024-03-13 16:34:33,927 INFO supervisord started with pid 1
+2024-03-13 16:38:28,190 WARN received SIGQUIT indicating exit request
+2024-03-13 16:38:38,435 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:38:38,436 INFO Set uid to user 0 succeeded
+2024-03-13 16:38:38,440 INFO supervisord started with pid 1
+2024-03-13 16:39:06,471 WARN received SIGQUIT indicating exit request
+2024-03-13 16:39:25,003 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:39:25,004 INFO Set uid to user 0 succeeded
+2024-03-13 16:39:25,008 INFO supervisord started with pid 1
+2024-03-13 16:42:17,193 WARN received SIGQUIT indicating exit request
+2024-03-13 16:42:33,709 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 16:42:33,710 INFO Set uid to user 0 succeeded
+2024-03-13 16:42:33,715 INFO supervisord started with pid 1
+2024-03-13 16:42:58,743 WARN received SIGQUIT indicating exit request
+2024-03-13 17:03:26,788 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 17:03:26,789 INFO Set uid to user 0 succeeded
+2024-03-13 17:03:26,791 INFO supervisord started with pid 1
+2024-03-13 17:14:26,555 WARN received SIGQUIT indicating exit request
+2024-03-13 17:14:49,457 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-13 17:14:49,458 INFO Set uid to user 0 succeeded
+2024-03-13 17:14:49,462 INFO supervisord started with pid 1
+2024-03-13 17:17:25,652 WARN received SIGQUIT indicating exit request
