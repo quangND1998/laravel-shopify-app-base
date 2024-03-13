@@ -29,8 +29,7 @@ services:
       MYSQL_USER: ${DB_USERNAME}
     volumes:
       - .docker/data/db:/var/lib/mysql/
-    networks:
-      - db-network
+    
     
 
   phpmyadmin:
@@ -41,7 +40,7 @@ services:
     environment:
       - PMA_ARBITRARY=1
     networks:
-      - db-network
+      - app-network
 
 
 
