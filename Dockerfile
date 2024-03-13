@@ -43,7 +43,7 @@ WORKDIR /var/www/laravel-shopify-app
 
 
 #-----------SUPERVISOR------------
-COPY .docker/root/supervisord.conf /etc/supervisord.conf
+COPY .docker/supervisord.conf /etc/supervisord.conf
 
 # Task scheduling
 # RUN echo "* * * * * php /app/artisan schedule:run >> /dev/null 2>&1" >> /etc/crontabs/root
