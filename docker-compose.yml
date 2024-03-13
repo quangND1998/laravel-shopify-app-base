@@ -53,7 +53,7 @@ services:
     networks:
       - app-network
 
-  node:  
+  npm:  
     build:
       context: .docker/node
       dockerfile: Dockerfile
