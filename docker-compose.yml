@@ -54,9 +54,12 @@ services:
       - app-network
 
   node:  
-    build:
-      context: .docker/node
-      dockerfile: Dockerfile
+    image: node:18-alpine
+    working_dir: /var/www/laravel-shopify-app
+    # ports:
+    #   - 3000:3000
+    volumes:
+      - .env:/var/www/laravel-shopify-app/.env
     restart: always
   redis:
     image: redis:6-alpine
