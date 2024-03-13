@@ -17,3 +17,9 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+
+.docker/*/data/db/*
+!.docker/*/data/db/.gitkeep
+.docker/*/data/redis/*
+!.docker/*/data/redis/.gitkeep

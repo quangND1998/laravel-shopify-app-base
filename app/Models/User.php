@@ -10,6 +10,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 use Osiset\ShopifyApp\Contracts\ShopModel as IShopModel;
 use Osiset\ShopifyApp\Traits\ShopModel;
+
 class User extends Authenticatable implements IShopModel
 {
     use HasApiTokens, HasFactory, Notifiable, ShopModel;
@@ -43,6 +44,6 @@ class User extends Authenticatable implements IShopModel
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
-        'password' => 'hashed',
+        // 'password' => 'hashed',
     ];
 }
