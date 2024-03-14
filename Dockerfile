@@ -20,20 +20,21 @@ RUN rm -rf /var/cache/apk/*
 # Use the default production configuration ($PHP_INI_DIR is variable already set by the default image)
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
-# #-----------SUPERVISOR------------
-# COPY .docker/supervisord.conf /etc/supervisord.conf
 
-# # Task scheduling
-# # RUN echo "* * * * * php /app/artisan schedule:run >> /dev/null 2>&1" >> /etc/crontabs/root
+#-----------SUPERVISOR------------
+COPY .docker/supervisord.conf /etc/supervisord.conf
 
-# # Laravel horizon
-# # Note that Horizon already includes worker
-# # Otherwise we need to run queue:work manually to spawn workers
-# COPY .docker/supervisor.d /etc/supervisor.d
+# Task scheduling
+RUN echo "* * * * * php /app/artisan schedule:run >> /dev/null 2>&1" >> /etc/crontabs/root
 
-# # # Copy existing application directory permissions
-# COPY . .
+# Laravel horizon
+# Note that Horizon already includes worker
+# Otherwise we need to run queue:work manually to spawn workers
+COPY .docker/supervisor.d /etc/supervisor.d
 
-# CMD supervisord -n -c /etc/supervisord.conf
+# Copy existing application directory permissions
+COPY . .
 
-CMD ["php-fpm"]
+CMD supervisord -n -c /etc/supervisord.conf
+
+

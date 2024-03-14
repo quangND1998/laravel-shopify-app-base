@@ -33,9 +33,11 @@ storage/logs/*
 .dockerignore
 Dockerfile
 docker-compose.yml
-.docker/*/**
-!.docker/*/supervisor*
-
+# neu co folder root
+# .docker/*/**
+# !.docker/*/supervisor*
+.docker/*
+!.docker/supervisor*
 README.md
 .editorconfig
 

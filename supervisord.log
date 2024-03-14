@@ -64,3 +64,109 @@
 2024-03-13 17:14:49,458 INFO Set uid to user 0 succeeded
 2024-03-13 17:14:49,462 INFO supervisord started with pid 1
 2024-03-13 17:17:25,652 WARN received SIGQUIT indicating exit request
+2024-03-14 11:50:05,172 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 11:50:05,174 INFO Set uid to user 0 succeeded
+2024-03-14 11:50:05,177 INFO supervisord started with pid 1
+2024-03-14 11:51:47,291 WARN received SIGQUIT indicating exit request
+2024-03-14 11:52:02,032 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 11:52:02,032 INFO Set uid to user 0 succeeded
+2024-03-14 11:52:02,035 INFO supervisord started with pid 1
+2024-03-14 12:29:33,665 WARN received SIGQUIT indicating exit request
+2024-03-14 12:38:49,073 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 12:38:49,073 INFO Set uid to user 0 succeeded
+2024-03-14 12:38:49,076 INFO supervisord started with pid 1
+2024-03-14 12:40:30,194 WARN received SIGQUIT indicating exit request
+2024-03-14 12:40:49,872 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 12:40:49,873 INFO Set uid to user 0 succeeded
+2024-03-14 12:40:49,875 INFO supervisord started with pid 1
+2024-03-14 12:54:36,835 WARN received SIGQUIT indicating exit request
+2024-03-14 12:55:07,369 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 12:55:07,370 INFO Set uid to user 0 succeeded
+2024-03-14 12:55:07,374 INFO supervisord started with pid 1
+2024-03-14 12:57:13,519 WARN received SIGQUIT indicating exit request
+2024-03-14 12:57:25,015 WARN No file matches via include "/etc/supervisor/*.conf"
+2024-03-14 12:57:25,016 INFO Set uid to user 0 succeeded
+2024-03-14 12:57:25,019 INFO supervisord started with pid 1
+2024-03-14 12:58:31,097 WARN received SIGQUIT indicating exit request
+2024-03-14 13:01:45,327 WARN No file matches via include "/etc/supervisor/*.conf"
+2024-03-14 13:01:45,327 INFO Set uid to user 0 succeeded
+2024-03-14 13:01:45,331 INFO supervisord started with pid 1
+2024-03-14 13:04:26,514 WARN received SIGQUIT indicating exit request
+2024-03-14 13:04:39,532 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:04:39,532 INFO Set uid to user 0 succeeded
+2024-03-14 13:04:39,535 INFO supervisord started with pid 1
+2024-03-14 13:05:39,604 WARN received SIGQUIT indicating exit request
+2024-03-14 13:07:26,405 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:07:26,406 INFO Set uid to user 0 succeeded
+2024-03-14 13:07:26,409 INFO supervisord started with pid 1
+2024-03-14 13:10:34,622 WARN received SIGQUIT indicating exit request
+2024-03-14 13:11:05,939 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:11:05,939 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:11:05,942 INFO supervisord started with pid 1
+2024-03-14 13:12:03,003 WARN received SIGQUIT indicating exit request
+2024-03-14 13:12:44,987 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:12:44,988 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:12:44,991 INFO supervisord started with pid 1
+2024-03-14 13:14:11,085 WARN received SIGQUIT indicating exit request
+2024-03-14 13:14:28,807 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:14:28,808 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:14:28,813 INFO supervisord started with pid 1
+2024-03-14 13:16:02,923 WARN received SIGQUIT indicating exit request
+2024-03-14 13:16:14,748 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:16:14,748 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:16:14,755 INFO supervisord started with pid 1
+2024-03-14 13:17:29,841 WARN received SIGQUIT indicating exit request
+2024-03-14 13:17:39,836 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:17:39,837 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:17:39,841 INFO supervisord started with pid 1
+2024-03-14 13:17:53,858 WARN received SIGQUIT indicating exit request
+2024-03-14 13:21:55,747 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:21:55,747 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:21:55,751 INFO supervisord started with pid 1
+2024-03-14 13:22:30,793 WARN received SIGQUIT indicating exit request
+2024-03-14 13:23:59,997 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:23:59,997 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:24:00,001 INFO supervisord started with pid 1
+2024-03-14 13:26:40,186 WARN received SIGQUIT indicating exit request
+2024-03-14 13:26:51,247 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:26:51,248 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:26:51,250 INFO supervisord started with pid 1
+2024-03-14 13:30:10,478 WARN received SIGQUIT indicating exit request
+2024-03-14 13:36:15,312 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:36:15,312 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-14 13:36:15,312 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-14 13:36:15,313 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-14 13:36:15,317 INFO supervisord started with pid 1
+2024-03-14 13:36:16,324 INFO spawned: 'cron' with pid 7
+2024-03-14 13:36:16,329 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-14 13:36:16,334 INFO spawned: 'php-fpm' with pid 9
+2024-03-14 13:36:17,359 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 13:36:17,360 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 13:36:17,360 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 13:45:58,150 WARN received SIGQUIT indicating exit request
+2024-03-14 13:45:58,151 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-14 13:45:58,155 INFO stopped: php-fpm (exit status 0)
+2024-03-14 13:46:01,161 INFO waiting for cron, laravel-horizon to die
+2024-03-14 13:46:04,165 INFO waiting for cron, laravel-horizon to die
+2024-03-14 13:46:07,170 INFO waiting for cron, laravel-horizon to die
+2024-03-14 13:46:22,756 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:46:22,756 WARN No file matches via include "/etc/supervisor.d/*.conf"
+2024-03-14 13:46:22,759 INFO supervisord started with pid 1
+2024-03-14 13:47:36,846 WARN received SIGQUIT indicating exit request
+2024-03-14 13:47:54,098 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 13:47:54,098 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-14 13:47:54,098 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-14 13:47:54,099 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-14 13:47:54,105 INFO supervisord started with pid 1
+2024-03-14 13:47:55,110 INFO spawned: 'cron' with pid 7
+2024-03-14 13:47:55,115 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-14 13:47:55,119 INFO spawned: 'php-fpm' with pid 9
+2024-03-14 13:47:56,143 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 13:47:56,143 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 13:47:56,144 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 14:24:13,480 WARN received SIGQUIT indicating exit request
+2024-03-14 14:24:13,480 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-14 14:24:13,484 INFO stopped: php-fpm (exit status 0)
+2024-03-14 14:24:16,489 INFO waiting for cron, laravel-horizon to die
+2024-03-14 14:24:19,493 INFO waiting for cron, laravel-horizon to die
+2024-03-14 14:24:22,497 INFO waiting for cron, laravel-horizon to die
