@@ -170,3 +170,99 @@
 2024-03-14 14:24:16,489 INFO waiting for cron, laravel-horizon to die
 2024-03-14 14:24:19,493 INFO waiting for cron, laravel-horizon to die
 2024-03-14 14:24:22,497 INFO waiting for cron, laravel-horizon to die
+2024-03-14 14:25:15,997 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-14 14:25:15,998 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-14 14:25:15,998 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-14 14:25:15,998 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-14 14:25:16,003 INFO supervisord started with pid 1
+2024-03-14 14:25:17,008 INFO spawned: 'cron' with pid 7
+2024-03-14 14:25:17,012 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-14 14:25:17,015 INFO spawned: 'php-fpm' with pid 9
+2024-03-14 14:25:18,043 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 14:25:18,043 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 14:25:18,044 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-14 15:53:01,455 WARN received SIGQUIT indicating exit request
+2024-03-14 15:53:01,455 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-14 15:53:01,459 INFO stopped: php-fpm (exit status 0)
+2024-03-14 15:53:04,464 INFO waiting for cron, laravel-horizon to die
+2024-03-14 15:53:07,467 INFO waiting for cron, laravel-horizon to die
+2024-03-14 15:53:10,471 INFO waiting for cron, laravel-horizon to die
+2024-03-15 12:45:11,155 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-15 12:45:11,156 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-15 12:45:11,157 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-15 12:45:11,157 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-15 12:45:11,166 INFO supervisord started with pid 1
+2024-03-15 12:45:12,173 INFO spawned: 'cron' with pid 7
+2024-03-15 12:45:12,177 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-15 12:45:12,181 INFO spawned: 'php-fpm' with pid 9
+2024-03-15 12:45:13,346 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-15 12:45:13,346 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-15 12:45:13,346 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-15 12:45:55,343 WARN received SIGQUIT indicating exit request
+2024-03-15 12:45:55,343 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-15 12:45:55,351 INFO stopped: php-fpm (exit status 0)
+2024-03-15 12:45:58,356 INFO waiting for cron, laravel-horizon to die
+2024-03-15 12:46:01,360 INFO waiting for cron, laravel-horizon to die
+2024-03-15 12:46:04,364 INFO waiting for cron, laravel-horizon to die
+2024-03-15 12:46:15,815 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-15 12:46:15,815 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-15 12:46:15,815 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-15 12:46:15,816 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-15 12:46:15,822 INFO supervisord started with pid 1
+2024-03-15 12:46:16,827 INFO spawned: 'cron' with pid 7
+2024-03-15 12:46:16,830 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-15 12:46:16,834 INFO spawned: 'php-fpm' with pid 9
+2024-03-15 12:46:17,868 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-15 12:46:17,868 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-15 12:46:17,869 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:17:29,642 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-16 05:17:29,643 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-16 05:17:29,643 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-16 05:17:29,644 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-16 05:17:29,657 INFO supervisord started with pid 1
+2024-03-16 05:17:30,668 INFO spawned: 'cron' with pid 7
+2024-03-16 05:17:30,679 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-16 05:17:30,684 INFO spawned: 'php-fpm' with pid 9
+2024-03-16 05:17:32,010 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:17:32,010 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:17:32,011 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:19:14,652 WARN received SIGQUIT indicating exit request
+2024-03-16 05:19:14,655 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-16 05:19:14,664 INFO stopped: php-fpm (exit status 0)
+2024-03-16 05:19:17,670 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:19:20,673 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:19:23,677 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:21:23,353 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-16 05:21:23,354 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-16 05:21:23,354 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-16 05:21:23,355 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-16 05:21:23,363 INFO supervisord started with pid 1
+2024-03-16 05:21:24,367 INFO spawned: 'cron' with pid 7
+2024-03-16 05:21:24,373 INFO spawned: 'laravel-horizon' with pid 8
+2024-03-16 05:21:24,379 INFO spawned: 'php-fpm' with pid 9
+2024-03-16 05:21:25,407 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:21:25,407 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:21:25,407 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:22:59,901 WARN received SIGQUIT indicating exit request
+2024-03-16 05:22:59,902 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-16 05:22:59,908 INFO stopped: php-fpm (exit status 0)
+2024-03-16 05:23:02,913 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:23:05,917 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:23:08,921 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:23:27,501 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-16 05:23:27,501 INFO Included extra file "/etc/supervisor.d/cron.conf" during parsing
+2024-03-16 05:23:27,501 INFO Included extra file "/etc/supervisor.d/horizon.conf" during parsing
+2024-03-16 05:23:27,502 INFO Included extra file "/etc/supervisor.d/php-fpm.conf" during parsing
+2024-03-16 05:23:27,510 INFO supervisord started with pid 1
+2024-03-16 05:23:28,516 INFO spawned: 'cron' with pid 6
+2024-03-16 05:23:28,520 INFO spawned: 'laravel-horizon' with pid 7
+2024-03-16 05:23:28,524 INFO spawned: 'php-fpm' with pid 8
+2024-03-16 05:23:29,550 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:23:29,550 INFO success: laravel-horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:23:29,551 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-16 05:25:42,607 WARN received SIGQUIT indicating exit request
+2024-03-16 05:25:42,607 INFO waiting for cron, laravel-horizon, php-fpm to die
+2024-03-16 05:25:42,612 INFO stopped: php-fpm (exit status 0)
+2024-03-16 05:25:45,618 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:25:48,622 INFO waiting for cron, laravel-horizon to die
+2024-03-16 05:25:51,626 INFO waiting for cron, laravel-horizon to die
